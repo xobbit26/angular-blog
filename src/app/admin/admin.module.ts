@@ -19,10 +19,10 @@ import { LoginPageComponent } from './login-page/login-page.component';
     RouterModule.forChild([{
       path: '', component: AdminLayoutComponent, children: [
         { path: '', redirectTo: '/admin/login', pathMatch: 'full' },
-        { path: 'login', component: LoginPageComponent }
-        // { path: 'dashboard', component: DashboardPageComponent },
-        // { path: 'create', component: CreatePageComponent },
-        // { path: 'post/:id/edit', component: EditPageComponent }
+        { path: 'login', component: LoginPageComponent },
+        { path: 'dashboard', component: DashboardPageComponent },
+        { path: 'create', component: CreatePageComponent },
+        { path: 'post/:id/edit', component: EditPageComponent }
       ]
     }]),
     CommonModule
