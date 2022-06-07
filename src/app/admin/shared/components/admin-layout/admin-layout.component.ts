@@ -7,7 +7,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./admin-layout.component.scss']
 })
 export class AdminLayoutComponent implements OnInit {
-
   constructor(private router: Router) { }
 
   ngOnInit(): void {
